@@ -82,6 +82,7 @@ curl -v -b cookie.txt --location --request POST 'http://127.0.0.1:3000/api/proje
   "inventory_id": 1,
   "repository_id": 1,
   "environment_id": 1,
+  "app": "ansible",
   "view_id": null,
   "name": "Deploy Siwapp",
   "playbook": "entrypoint.yml",
@@ -181,6 +182,7 @@ curl -v -b cookie.txt --location --request POST 'http://127.0.0.1:3000/api/proje
 --data-raw '{
   "project_id": 1,
   "inventory_id": 1,
+  "app": "ansible",
   "repository_id": 1,
   "environment_id": 1,
   "view_id": null,
